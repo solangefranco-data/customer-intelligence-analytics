@@ -1,0 +1,11 @@
+# .gitignore --> indica a Git qué archivos o carpetas no queremos controlar ni subir a GitHub.
+
+# Entorno virtual de Python
+.venv/
+
+# Archivos temporales generados por Python que vamos a ignorar
+__pycache__/
+*.pyc
+
+# Archivos temporales generados por Jupyter que vamos a ignorar
+.ipynb_checkpoints/
