@@ -9,3 +9,8 @@ __pycache__/
 
 # Archivos temporales generados por Jupyter que vamos a ignorar
 .ipynb_checkpoints/
+
+
+
+# Raw datasets
+data/raw/

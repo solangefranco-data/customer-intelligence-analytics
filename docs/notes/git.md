@@ -16,8 +16,10 @@ Comandos y conceptos de Git utilizados durante el desarrollo del proyecto.
 | `git push` | Subir cambios | Envía los commits locales a GitHub |
 | `git pull` | Descargar cambios | Trae cambios existentes en GitHub al repositorio local |
 | `git log` | Ver historial | Muestra el historial de commits |
+|`git switch -c nombre-rama` |	Crear + cambiar |	Crea una nueva rama y cambia automáticamente a ella
+|`git switch nombre-rama`	|Cambiar de rama	|Cambia a una rama que ya existe
 
-> `git add`, `commit`, `push` y `pull` los iremos utilizando y aprendiendo durante el proyecto.
+> `git add`, `commit`, `push` y `pull`  los iremos utilizando y aprendiendo durante el proyecto.
 
 ---
 
@@ -264,8 +266,6 @@ customer-intelligence-analytics/
 
 ### README.md
 
-Es la presentación principal del proyecto.
-
 Incluirá progresivamente:
 
 - objetivo
@@ -280,7 +280,7 @@ Incluirá progresivamente:
 
 ### .gitignore
 
-Indica qué archivos o carpetas **no queremos incorporar al repositorio**.
+Para Indicar qué archivos o carpetas **no queremos incorporar al repositorio**
 
 Por ejemplo:
 
@@ -288,11 +288,11 @@ Por ejemplo:
 .venv/
 ```
 
-Nuestro entorno virtual de Python debe permanecer en nuestro ordenador y no subirse al repositorio.
+El entorno virtual de Python debe permanecer en nuestro ordenador y no subirse al repositorio
 
 ### requirements.txt
 
-Contendrá las librerías de Python necesarias para ejecutar el proyecto.
+Contiene Lista de las librerías de Python necesarias para ejecutar el proyecto
 
 Ejemplo:
 
@@ -302,4 +302,3 @@ matplotlib
 jupyter
 ```
 
-Esto permite que otra persona pueda conocer las dependencias necesarias para ejecutar el proyecto.
